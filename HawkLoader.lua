@@ -9,4 +9,4 @@
     Devs: Hanki, Falpearx, Tv1o
 ]]
 
-loadstring(game:HttpGet("https://hawkhub.lol/scripts/Loader.lua", true))("hawkhubneverdies")
+loadstring(game:HttpGet("https://hawkhub.lol/scripts/HawkHUB.lua", true))("hawkhubneverdies")
