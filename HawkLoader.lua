@@ -6,7 +6,7 @@
      \___|_  /(____  /\/\_/ |__|_ \  \___|_  /|______/  |______  /
            \/      \/            \/        \/                  \/ 
 
-    Devs: Hanki, Falpearx, Melon
+    Devs: Hanki, Falpearx, Tv1o
 ]]
 
 loadstring(game:HttpGet("https://hawkhub.lol/scripts/Loader.lua", true))("hawkhubneverdies")
