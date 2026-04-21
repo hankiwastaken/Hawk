@@ -23,7 +23,7 @@ end)
 
 if success then
 	--Successfull request
-	if data.Body:find("530") then
+	if tostring(data.Body):find("530") then
 		Notif:Notification({
 			Title = "Hawk Server",
 			Description = "The server is down right now. Try again in a bit. Contact Hanki.",
@@ -31,7 +31,7 @@ if success then
 			Animated = true,
 			Cooldown = 5
 		})
-	elseif data.Body:find("502") then
+	elseif tostring(data.Body):find("502") then
 		Notif:Notification({
 			Title = "Hawk Server",
 			Description = "Server is up but the app isn't responding. Contact Hanki.",
