@@ -44,7 +44,7 @@ if success then
 		local HawkServerData = HttpService:JSONDecode(HawkServerStatus)
 		
 		if HawkServerData.script_status and HawkServerData.script_status == "online" then
-			loadstring(game:HttpGet("https://hawkhub.lol", true))("hawkhubneverdies")
+			loadstring(game:HttpGet("https://hawkhub.lol/scripts/HawkHUB.lua", true))("hawkhubneverdies")
 		elseif HawkServerData.script_status and HawkServerData.script_status == "offline" then
 			Notif:Notification({
 				Title = "Hawk HUB",
