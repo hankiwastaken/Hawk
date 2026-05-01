@@ -16,7 +16,7 @@ local Notif = HawkLib:AddNotifications()
 
 local success, data = pcall(function()
 	return request({
-		Url = "https://hawkhub.lol",
+		Url = "https://status.hawkhub.lol",
 		Method = "GET"
 	})
 end)
